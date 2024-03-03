@@ -2,10 +2,7 @@ import Card from './Component/Card'
 
 function App() {
   return (
-    <div
-      className=" w-[100vw] flex h-[100vh] items-center justify-center text-center
-      "
-    >
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-purple-500 via-blue-500 to-indigo-500">
       <Card />
     </div>
   )
